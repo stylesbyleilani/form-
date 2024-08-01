@@ -1,0 +1,148 @@
+
+
+
+
+
+.main-container{
+    
+    
+    display: flex;
+    
+}
+.container-1{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 40px;
+
+
+    
+}
+.container-2{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+} 
+.card-2{
+    align-items: center;
+    background-color: rgb(243, 248, 241);
+    box-shadow: 3px 3px 3px 3px rgb(190, 198, 203) ;
+
+
+width: 400px;
+height: 300px;
+padding: 100px;
+}
+.card-1{
+
+align-items: center;
+background-color: rgb(171, 229, 229);
+width: 400px;
+height: 300px;
+padding: 100px;
+align-items: center;
+box-shadow: 3px 3px 3px 3px rgb(190, 198, 203) ;
+
+
+
+}
+.card2a{
+    background-color: rgb(171, 229, 229);
+
+    width: 400px;
+    height: 300px;
+    padding: 100px;
+    box-shadow: 3px 3px 3px 3px rgb(190, 198, 203) ;
+    animation-name: slideright;
+    animation-duration: 20s;
+
+}
+
+.card1a{
+    background-color: rgb(243, 248, 241);
+    width: 400px;
+    height: 300px;
+    padding: 100px;
+    box-shadow: 3px 3px 3px 3px rgb(190, 198, 203) ;
+    animation-name:changecolor ;
+    animation-duration: 60s;
+}
+@keyframes changecolor{
+ 0%{ background-color: rgb(243, 248, 241);
+ }
+ 10%{
+    background-color: rgb(211, 237, 200);
+
+ }
+ 20%{    background-color: rgb(152, 187, 139);
+ }
+ 50%{    background-color: rgb(113, 137, 103);
+ }
+ }
+@keyframes slideright{
+  100%{
+    transform:translateX(100px);
+  }
+
+}
+input{
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+
+}
+.card1-btn{
+    padding: 6px;
+    border-radius: 12px;
+    width: 100px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(245, 239, 239);
+}
+.card1-btn:hover{
+    background-color: rgb(171, 229, 229);
+    border: 2px solid   rgb(171, 229, 229);
+    ;
+}
+.card1a-btn{
+    padding: 6px;
+    border-radius: 12px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(171, 229, 229);
+}
+.card1a-btn:hover{
+    background-color: rgb(206, 226, 226);
+
+}
+.card2a-btn{
+    padding: 6px;
+    border-radius: 12px;
+    width: 100px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(245, 239, 239);
+}
+.card2a-btn:hover{
+    background-color: rgb(171, 229, 229);
+    border: 2px solid   rgb(171, 229, 229);
+    ;
+}
+.card2-btn{
+    padding: 6px;
+    border-radius: 12px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(171, 229, 229);
+}
+.card2-btn:hover{
+    background-color: rgb(206, 226, 226);
+
+}
+h1{
+    display:flex;
+    align-self: start;
+}
